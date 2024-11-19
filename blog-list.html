@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog List</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Navbar Styles */
+        nav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background-color: #333;
+            padding: 10px 20px;
+            z-index: 1000;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-right: 20px;
+            font-size: 18px;
+        }
+
+        nav a:hover {
+            color: #00bcd4;
+        }
+
+        /* Main Content */
+        main {
+            margin-top: 60px; /* To make space for the fixed navbar */
+            padding: 20px;
+        }
+
+        /* Footer Styles */
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #333;
+            color: white;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        #blog-list {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        #blog-list li {
+            margin-bottom: 20px;
+        }
+
+        #blog-list a {
+            text-decoration: none;
+            color: #333;
+        }
+
+        #blog-list a:hover {
+            color: #00bcd4;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="blog-list.html">Blogs</a>
+        <a href="create-blog.html">Create Blog</a>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+        <h1>All Blogs</h1>
+        <ul id="blog-list">
+            <li>
+                <a href="blog1.html">
+                    <h3>The Beautiful Nature</h3>
+                    <p>Click to read more!</p>
+                </a>
+            </li>
+            <li>
+                <a href="blog2.html">
+                    <h3>Indian Education System</h3>
+                    <p>Click to read more!</p>
+                </a>
+            </li>
+            <li>
+                <a href="blog3.html">
+                    <h3>Top 5 Worst Food Ingredients for Your Immune System</h3>
+                    <p>Click to read more!</p>
+                </a>
+            </li>
+        </ul>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        &copy; 2024 Blogging Website | All Rights Reserved.
+    </footer>
+
+</body>
+</html>
+
